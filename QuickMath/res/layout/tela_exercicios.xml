@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget49"
+	android:layout_width="106dp"
+	android:layout_height="81dp"
+	android:text=""
+	android:textSize="30sp"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:layout_x="125dp"
+	android:layout_y="130dp" />
+
+<Button
+	android:id="@+id/widget51_copy"
+	android:layout_width="94dp"
+	android:layout_height="wrap_content"
+	android:text="8"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:layout_x="110dp"
+	android:layout_y="202dp" 
+        android:onClick="errado"/>
+
+<Button
+	android:id="@+id/widget51"
+	android:layout_width="94dp"
+	android:layout_height="wrap_content"
+	android:text="11"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:layout_x="110dp"
+	android:layout_y="260dp" 
+        android:onClick="somacerto"/>
+<Button
+        android:id="@+id/widget42"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="SAIR"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_x="110dp"
+        android:layout_y="420dp" 
+        android:onClick="exit"/>
+</AbsoluteLayout>

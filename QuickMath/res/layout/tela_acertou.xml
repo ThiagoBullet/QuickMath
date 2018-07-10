@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/fundoacertou">
+<TextView
+	android:id="@+id/widgeta1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="n1"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:gravity="center"
+	android:layout_x="65dp"
+	android:layout_y="138dp" />
+<TextView
+	android:id="@+id/widgeta2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="n2"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:gravity="center"
+	android:layout_x="215dp"
+	android:layout_y="138dp" />
+<Button
+	android:id="@+id/widget33"
+	android:layout_width="48dp"
+	android:layout_height="45dp"
+        android:background="@android:color/transparent"
+	android:layout_x="158dp"
+	android:layout_y="310dp" 
+        android:onClick="tenteNovamente"/>
+</AbsoluteLayout>

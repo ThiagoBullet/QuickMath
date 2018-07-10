@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fundooperacoes">
+    <Button
+        android:id="@+id/widget38"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="SOMA (+)"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_x="85dp"
+        android:layout_y="200dp"
+        android:onClick="soma"/>
+    <Button
+        android:id="@+id/widget39"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="SUBTRA&#199;&#195;O (-)"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_x="85dp"
+        android:layout_y="250dp" 
+        android:onClick="subtracao"/>
+    <Button
+        android:id="@+id/widget38"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICA&#199;&#195;O (X)"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_x="85dp"
+        android:layout_y="300dp" 
+        android:onClick="multiplicacao"/>
+    <Button
+        android:id="@+id/widget39"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="DIVIS&#195;O (&#247;)"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_x="85dp"
+        android:layout_y="350dp" 
+        android:onClick="divisao"/>
+    <Button
+        android:id="@+id/widget42"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_x="55dp"
+        android:layout_y="420dp" 
+        android:onClick="voltar"/>
+    <Button
+        android:id="@+id/widget42"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="NÍVEL"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_x="165dp"
+        android:layout_y="420dp" 
+        android:onClick="jogar"/>
+</AbsoluteLayout>

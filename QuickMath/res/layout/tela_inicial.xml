@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/fundo01">
+<Button
+	android:id="@+id/widget33"
+	android:layout_width="160dp"
+	android:layout_height="wrap_content"
+	android:text="JOGAR"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:layout_x="85dp"
+	android:layout_y="165dp" 
+        android:onClick="jogar"/>
+<Button
+	android:id="@+id/widget34"
+	android:layout_width="160dp"
+	android:layout_height="wrap_content"
+	android:text="AJUDA"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:layout_x="85dp"
+	android:layout_y="225dp" 
+        android:onClick="ajuda"/>
+<Button
+	android:id="@+id/widget35"
+	android:layout_width="160dp"
+	android:layout_height="wrap_content"
+	android:text="CR&#201;DITOS"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:layout_x="85dp"
+	android:layout_y="285dp" 
+        android:onClick="creditos"/>
+<Button
+	android:id="@+id/widget36"
+	android:layout_width="160dp"
+	android:layout_height="wrap_content"
+	android:text="SAIR"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:layout_x="85dp"
+	android:layout_y="345dp" 
+        android:onClick="sair"/>
+</AbsoluteLayout>

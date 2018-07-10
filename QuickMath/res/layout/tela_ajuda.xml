@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/fundo01">
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="300dp"
+	android:layout_height="30dp"
+	android:text="COMO SOMAR E SUBTRAIR"
+	android:textSize="22sp"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:layout_x="25dp"
+	android:layout_y="88dp" />
+<TextView
+	android:id="@+id/video"
+	android:layout_width="300dp"
+        android:layout_height="200dp"/>
+<Button
+	android:id="@+id/widget34"
+	android:layout_width="100dp"
+	android:layout_height="wrap_content"
+	android:text="VOLTAR"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:layout_x="107dp"
+	android:layout_y="325dp" 
+        android:onClick="voltar"/>
+<VideoView
+	android:id="@+id/video_ajuda"
+	android:layout_width="142dp"
+	android:layout_height="99dp"
+	android:layout_x="90dp"
+	android:layout_y="140dp"/>
+<ImageView
+	android:id="@+id/widget32"
+	android:layout_width="70dp"
+	android:layout_height="70dp"
+	android:src="@drawable/video"
+	android:layout_x="125dp"
+	android:layout_y="250dp" 
+        android:onClick="tocar_video"/>
+</AbsoluteLayout>
